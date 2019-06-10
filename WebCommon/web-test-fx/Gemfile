@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+
+gem 'report_builder'
+gem 'watir'
+gem 'watir-scroll'
+gem 'parallel'
+gem 'rake'
+gem 'cuke_sniffer'
+gem 'cucumber'

@@ -1,0 +1,336 @@
+[
+  {
+    "uri": "features/Sampletests.feature",
+    "id": "run-tests-on-the-code",
+    "keyword": "Feature",
+    "name": "Run tests on the code",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I launch the website",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8525325000
+            }
+          }
+        ]
+      },
+      {
+        "id": "run-tests-on-the-code;verify-the-codes-(cleartrip)",
+        "keyword": "Scenario",
+        "name": "Verify the codes (CLEARTRIP)",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@run",
+            "line": 4
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "I print the url",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 656873000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "element with identifier \"SearchBtn\" is asserted",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44289000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "element with identifier \"SearchBtn\" is clicked",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253348000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "wait for element with identifier \"homeErrorMessage\" to be present",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47323000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "wait for element with text \"Sorry, but we can't continue until you fix everything that's marked in RED\" to be present",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33671000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "element with text \"Round trip\" is clicked",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193750000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for the page to load",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5004782000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I click element with text \"Local\" is opened in new tab",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88106000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I wait for the page to load",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000775000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I switch to next tab",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21481000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for the page to load",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5005015000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for the page to load",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5004997000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for the page to load",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5005000000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I assert to text \"Featured\"",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78311000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I switch to previous tab",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12908000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "element with text \"Search flights\" is asserted",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78436000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I wait for the page to load",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000748000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "website with url \"www.amazon.com\" is launched",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4163390000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I wait for the page to load",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5003944000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click element with text \"Today's Deals\" is opened in new window",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1635810000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I wait for the page to load",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000050000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "text \"Mobile\" is entered in the identifier \"twotabsearchtextbox\"",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131798000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I wait for the page to load",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/Sampletests.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5004038000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386330000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
